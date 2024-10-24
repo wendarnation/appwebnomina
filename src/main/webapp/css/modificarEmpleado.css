@@ -1,0 +1,120 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipografía */
+    background-color: #1d3557; /* Color de fondo */
+    color: #f1faee; /* Color del texto */
+    line-height: 1.6;
+}
+
+.h1Container {
+    width: 100%;
+    margin: 60px auto 5px auto;
+    background: #274469;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	flex-direction: column;
+}
+
+/* Contenedor del formulario */
+.formContainer {
+    width: 100%;
+    margin: 0 auto 15px auto;
+    padding: 20px;
+    background: #274469;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f1faee;
+    width: 200px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #F0D994;
+    color: #f1faee;
+    background-color: #1d3557;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border: 1px solid #a8dadc;
+}
+
+input[type="submit"] {
+    background-color: #FFD45E; /* Color de fondo del botón */
+    color: #1d3557; /* Color del texto del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    font-weight: 700;
+    max-width: 100px;
+}
+
+input[type="submit"]:hover {
+    background-color: #FCDD87;
+    color: #1d3557;
+}
+
+/* Estilo para el enlace de volver al inicio */
+a {
+    color: #F0D994; /* Color del enlace */
+    text-decoration: none;
+    margin: 0 auto;
+    border: 1px solid #F0D994;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+
+a:hover {
+    color: #a8dadc;
+    border: 1px solid #a8dadc;
+}
+
+a i {
+    margin-right: 10px;
+}
